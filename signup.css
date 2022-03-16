@@ -9,45 +9,43 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    /* background-color: aquamarine; */
 }
 .main{
     width: 800px;
     margin: 30px 0px 0px 250px;
-    /* background-color:palegoldenrod; */
 }
 
 .row{
     width: 800px;
     display: flex;
     margin:10px 0px 0px 0px;
-    /* background-color: blue; */
 }
 .leftside{
     width: 250px;
-    /* background-color: palegreen; */
 }
 .rightside{
     width: 550px;
-    /* background-color: paleturquoise; */
 }
 .inputlabel{
     width: 400px;
-    padding: 5px 0px 5px 1px;
+    padding: 9px 0px 9px 5px;
     margin: 3px 0px 0px 0px;
-    border:1px solid black;
+    border:1px solid #d3d3d3;
     border-radius: 3px;
-    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.inputlabel:focus{
+    outline: 1px solid blue;
 }
 
 .name{
-    margin:7px 0px 0px 174px;
+    margin:10px 0px 0px 174px;
     font-family: 'Roboto', sans-serif;
 }
 
 .password{
     font-family: 'Roboto', sans-serif;
-    margin: 8px 0px 0px 147px;
+    margin:11px 0px 0px 147px;
 }
 .textunderpassword{
     font-family: 'Roboto', sans-serif;
@@ -57,7 +55,7 @@
 
 .confirmpassword{
     font-family: 'Roboto', sans-serif;
-    margin: 8px 0px 0px 87px;
+    margin: 11px 0px 0px 87px;
 }
 
 .gendertext{
@@ -68,27 +66,64 @@
     margin:10px 0px 0px 0px;
 }
 
+.dobtext{
+    margin: 14px 0px 0px 182px;
+    font-family: 'Roboto', sans-serif;
+}
+#date{
+    width: 400px;
+    border:1px solid #d3d3d3;
+    margin: 2px 0px 0px 0px;
+    padding: 9px 0px 9px 0px;
+}
+
+.phototext{
+    margin: 13px 0px 0px 175px;
+    font-family: 'Roboto', sans-serif;
+}
+#file{
+    width: 400px;
+    border: 1px solid #d3d3d3;
+    margin: 2px 0px 0px 0px;
+    padding: 9px 0px 9px 0px;
+}
+
 .addresstext{
     margin:10px 0px 0px 160px;
     font-family: 'Roboto', sans-serif;
 }
 #filladdress{
-    border:1px solid black;
+    border:1px solid #d3d3d3;
     border-radius: 3px;
+    margin: 3px 0px 0px 0px;
+}
+#filladdress:focus{
+    outline: 1px solid blue;
 }
 
 .countrytext{
-    margin: 7px 0px 0px 160px;
+    margin: 11px 0px 0px 160px;
     font-family: 'Roboto', sans-serif;
+}
+.country{
+    width: 407px;
+    padding: 9px 0px 9px 5px;
+    margin: 0px 0px 0px 0px;
+    border:1px solid #d3d3d3;
+    border-radius: 3px;
+    background-color: white;
+}
+.country:focus{
+    outline: 1px solid blue;
 }
 
 .mobile{
-    margin: 7px 0px 0px 107px;
+    margin: 11px 0px 0px 107px;
     font-family: 'Roboto', sans-serif;
 }
 
 .email{
-    margin: 7px 0px 0px 157px;
+    margin: 11px 0px 0px 157px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -97,11 +132,15 @@
     font-family: 'Roboto', sans-serif;
 }
 #language{
-    width: 404px;
-    margin: 8px 0px 0px 0px;
-    border: 1px solid black;
+    width: 407px;
+    margin: 3px 0px 0px 0px;
+    border: 1px solid #d3d3d3;
     border-radius: 3px;
 }
+#language:focus{
+    outline: 1px solid blue;
+}
+
 .checkboxrightside{
     width: 550px;
     display: flex;
@@ -111,29 +150,33 @@
     font-family: 'Roboto', sans-serif;
 }
 .checkbox{
-    width: 30px;
-    border:1px solid black;
+    width: 40px;
+    border:1px solid #d3d3d3;
     margin: 3px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: rgb(210, 213, 216);
 }
 .checkboxtext{
-    width: 368px;
-    border: 1px solid black;
+    width: 360px;
+    border: 1px solid #d3d3d3;
     border-left: none;
     border-radius: 3px;
     margin: 3px 0px 0px 0px;
-    padding: 6px 0px 6px 5px;
+    padding: 9px 0px 9px 5px;
 }
 #box{
-    margin: 7px 0px 6px 9px;
+    margin: 11px 0px 11px 13px;
 }
 .button{
     width: 100px;
     border:1px solid black;
     border-radius: 4px;
-    margin:8px 0px 0px 250px;
+    margin:30px 0px 30px 250px;
     padding: 12px 0px 12px 0px;
     color: white;
     background-color: darkgreen;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:rgb(123, 207, 123);
 }
