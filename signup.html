@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/signup.css">
+    <link href="https://fonts.googleapis.com/css2? family=Roboto:wght@300;400;500;700;900" rel="stylesheet"> 
+    <title>SIGN-UP FORM</title>
+</head>
+<body>
+    <div class="top">
+        <h2>Sign Up Form</h2>
+    </div>
+
+    <div class="main">
+
+        <!-- row 1 Name -->
+        <div class="row">
+            <div class="leftside">
+                <p class="name">Name</p>
+            </div>
+            <div class="rightside">
+                <input type="text" class="inputlabel" placeholder="username">
+            </div>
+        </div>
+
+        <!-- row 2 Password-->
+        <div class="row">
+            <div class="leftside">
+                <p class="password">Password</p>
+            </div>
+            <div class="rightside">
+                <input type="text" class="inputlabel">
+               <p class="textunderpassword">max 16 characters</p> 
+            </div>
+        </div>
+
+        <!-- row 3 Confirm password-->
+        <div class="row">
+            <div class="leftside">
+                <p class="confirmpassword">Confirm Password</p>
+            </div>
+            <div class="rightside">
+                <input type="text" class="inputlabel" placeholder="Re-type password">
+            </div>
+        </div>
+
+        <!-- row 4 Gender -->
+        <div class="row">
+            <div class="leftside">
+                <p class="gendertext">Gender</p>
+            </div>
+            <div class="rightside">
+                <input class="gender" type="radio" name="gender" id="" value="male" > Male &nbsp; &nbsp;
+                <input type="radio" name="gender" id="" value="female"> Female
+            </div>
+        </div>
+
+        <!-- row 5 Address -->
+        <div class="row">
+            <div class="leftside">
+                <p class="addresstext">Address</p>
+            </div>
+            <div class="rightside">
+                <textarea name="address" id="filladdress" cols="47" rows="3"></textarea>
+            </div>
+        </div>
+
+        <!-- row 6 Country -->
+        <div class="row">
+            <div class="leftside">
+                <p class="countrytext">Country</p>
+            </div>
+            <div class="rightside">
+                <select class="inputlabel" name="country" id="">
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="JAPAN">JAPAN</option>
+                    <option value="CHINA">CHINA</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- row 7 Mobile Number -->
+        <div class="row">
+            <div class="leftside">
+                <p class="mobile">Mobile Number</p>
+            </div>
+            <div class="rightside">
+                <input class="inputlabel" type="text" placeholder="Mobile Number">
+            </div>
+        </div>
+
+        <!-- row 8 Email id -->
+        <div class="row">
+            <div class="leftside">
+                <p class="email">Email Id</p>
+            </div>
+            <div class="rightside">
+                <input class="inputlabel" type="text" placeholder="user@domain.com">
+            </div>
+        </div>
+
+        <!-- row 9 Languages -->
+        <div class="row">
+            <div class="leftside">
+                <p class="langtext">Languages Known</p>
+            </div>
+            <div class="rightside">
+                <select name="language" id="language" multiple>
+                    <option value="ENGLSIH">ENGLISH</option>
+                    <option value="HINDI">HINDI</option>
+                    <option value="TELUGU">TELUGU</option>
+                    <option value="OTHERS">OTHERS</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- row 10 Checkbox -->
+        <div class="row">
+            <div class="leftside">
+                <p class="checktext">Check the box</p>
+            </div>
+            <div class="checkboxrightside">
+                <div class="checkbox">
+                    <input type="checkbox" id="box" name="box">
+                </div>
+                <div>
+                    <p class="checkboxtext">I accept the criteria</p>
+                    <!-- <input type="text" class="checkboxtext" placeholder="I accept the criteria"> -->
+                </div> 
+            </div>
+        </div>
+        <!-- Submit -->
+        <div class="submit">
+            <button class="button" > Submit </button>
+        </div>
+
+    </div>
+
+</body>
+</html>
